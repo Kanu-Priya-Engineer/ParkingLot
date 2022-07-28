@@ -25,7 +25,7 @@ public class AllocationSystem {
 
         }
 
-        message = "Sorry! All seats are occupied";
+        message = "Sorry! All slots are occupied";
         return message;
     }
 

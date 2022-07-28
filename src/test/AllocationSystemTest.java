@@ -96,7 +96,7 @@ public class AllocationSystemTest {
         String carNumber = "7";
         car.setCarNumber(carNumber);
 
-        String expectedMessage = "Sorry! All seats are occupied";
+        String expectedMessage = "Sorry! All slots are occupied";
         String actualMessage = allocationSystem.parkCar(car);
 
         assertThat(actualMessage, is(expectedMessage));
