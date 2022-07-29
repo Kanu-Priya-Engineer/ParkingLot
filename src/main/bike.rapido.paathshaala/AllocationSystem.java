@@ -16,7 +16,7 @@ public class AllocationSystem {
             for ( int index = 0; index<ParkingManagementSystem.parkingSlots.size(); index++ ){
                 if(ParkingManagementSystem.parkingSlots.get(index) == null)
                 {
-                    message = "Your car parked successfully.";
+                    message = "Your car parked successfully at Slot : " + (index+1);
                     ParkingManagementSystem.parkingSlots.set(index, newCar);
                     ParkingManagementSystem.availableSpace -= 1;
                     return message;
@@ -36,7 +36,7 @@ public class AllocationSystem {
             {
                 ParkingManagementSystem.parkingSlots.set(index, null);
                 ParkingManagementSystem.availableSpace += 1;
-                message = "Your car removed successfully.";
+                message = "Your car removed successfully from Slot : " + (index+1);
                 return message;
             }
         }

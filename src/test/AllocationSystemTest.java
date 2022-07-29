@@ -7,30 +7,32 @@ import static org.hamcrest.MatcherAssert.assertThat;
 
 
 public class AllocationSystemTest {
-    Car car;
     AllocationSystem allocationSystem;
-
 
     @BeforeClass
     public static void beforeClass() throws Exception {
-        for(int index = 0; index<5; index++){
+        for(int index = 0; index<2; index++){
             ParkingManagementSystem.parkingSlots.add(index, null);
         }
+        ParkingManagementSystem.availableSpace=2;
     }
 
     @Before
     public void setUp() throws Exception {
-        car = new Car();
         allocationSystem = new AllocationSystem();
-
+        for(int index = 0; index<2; index++){
+            ParkingManagementSystem.parkingSlots.set(index, null);
+        }
+        ParkingManagementSystem.availableSpace=2;
     }
 
     @Test
     public void shouldAllocateSlotForCar1(){
         String carNumber = "1";
-        car.setCarNumber(carNumber);
+        Car car = new Car(carNumber);
 
-        String expectedMessage = "Your car parked successfully.";
+        String expectedSlotNumber = "1";
+        String expectedMessage = "Your car parked successfully at Slot : " + expectedSlotNumber;
         String actualMessage = allocationSystem.parkCar(car);
 
         assertThat(actualMessage, is(expectedMessage));
@@ -38,88 +40,70 @@ public class AllocationSystemTest {
 
     @Test
     public void shouldAllocateSlotForCar2(){
-        String carNumber = "2";
-        car.setCarNumber(carNumber);
+        String carNumber1 = "1";
+        Car car1 = new Car(carNumber1);
+        allocationSystem.parkCar(car1);
 
-        String expectedMessage = "Your car parked successfully.";
-        String actualMessage = allocationSystem.parkCar(car);
+        String carNumber2 = "2";
+        Car car2 = new Car(carNumber2);
 
-        assertThat(actualMessage, is(expectedMessage));
-    }
-
-    @Test
-    public void shouldAllocateSlotForCar3(){
-        String carNumber = "3";
-        car.setCarNumber(carNumber);
-
-        String expectedMessage = "Your car parked successfully.";
-        String actualMessage = allocationSystem.parkCar(car);
+        String expectedSlotNumber = "2";
+        String expectedMessage = "Your car parked successfully at Slot : " + expectedSlotNumber;
+        String actualMessage = allocationSystem.parkCar(car2);
 
         assertThat(actualMessage, is(expectedMessage));
     }
-
-    @Test
-    public void shouldAllocateSlotForCar4(){
-        String carNumber = "4";
-        car.setCarNumber(carNumber);
-
-        String expectedMessage = "Your car parked successfully.";
-        String actualMessage = allocationSystem.parkCar(car);
-
-        assertThat(actualMessage, is(expectedMessage));
-    }
-
-    @Test
-    public void shouldAllocateSlotForCar5(){
-        String carNumber = "5";
-        car.setCarNumber(carNumber);
-
-        String expectedMessage = "Your car parked successfully.";
-        String actualMessage = allocationSystem.parkCar(car);
-
-        assertThat(actualMessage, is(expectedMessage));
-    }
-
-    @Test
-    public void shouldAllocateSlotForCar6(){
-        String carNumber = "6";
-        car.setCarNumber(carNumber);
-
-        String expectedMessage = "Sorry! All seats are occupied";
-        String actualMessage = allocationSystem.parkCar(car);
-
-        assertThat(actualMessage, is(expectedMessage));
-    }
-
     @Test
     public void shouldNotAllocateSlotForCarAfterParkingSlotIsFull(){
-        String carNumber = "7";
-        car.setCarNumber(carNumber);
+        String carNumber1 = "1";
+        Car car1 = new Car(carNumber1);
+        allocationSystem.parkCar(car1);
+
+        String carNumber2 = "2";
+        Car car2 = new Car(carNumber2);
+        allocationSystem.parkCar(car2);
+
+        String carNumber3 = "3";
+        Car car3 = new Car(carNumber3);
 
         String expectedMessage = "Sorry! All slots are occupied";
-        String actualMessage = allocationSystem.parkCar(car);
+        String actualMessage = allocationSystem.parkCar(car3);
 
         assertThat(actualMessage, is(expectedMessage));
     }
 
     @Test
-    public void shouldDeallocateSlotForCar5(){
-        String carNumber = "5";
-        car.setCarNumber(carNumber);
+    public void shouldDeallocateSlotForCarWhichIsParked(){
+        String carNumber1 = "1";
+        Car car1 = new Car(carNumber1);
+        allocationSystem.parkCar(car1);
 
-        String expectedMessage = "Your car removed successfully.";
-        String actualMessage = allocationSystem.removeCar(car);
+        String carNumber2 = "2";
+        Car car2 = new Car(carNumber2);
+        allocationSystem.parkCar(car2);
+
+        String actualMessage = allocationSystem.removeCar(car1);
+        String expectedSlotNumber = "1";
+        String expectedMessage = "Your car removed successfully from Slot : " + expectedSlotNumber;
 
         assertThat(actualMessage, is(expectedMessage));
     }
 
     @Test
-    public void shouldNotDeallocateSlotForCarWhichNotPresent(){
-        String carNumber = "5";
-        car.setCarNumber(carNumber);
+    public void shouldNotDeallocateSlotForCarWhichIsNotParked(){
+        String carNumber1 = "1";
+        Car car1 = new Car(carNumber1);
+        allocationSystem.parkCar(car1);
+
+        String carNumber2 = "2";
+        Car car2 = new Car(carNumber2);
+        allocationSystem.parkCar(car2);
+
+        String carNumber3 = "3";
+        Car car3 = new Car(carNumber3);
 
         String expectedMessage = "This car is not parked.";
-        String actualMessage = allocationSystem.removeCar(car);
+        String actualMessage = allocationSystem.removeCar(car3);
 
         assertThat(actualMessage, is(expectedMessage));
     }

@@ -2,14 +2,14 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class ParkingManagementSystem {
-    public static final Integer totalSpace = 5;
-    public static Integer availableSpace = 5;
-    public static ArrayList<Car> parkingSlots= new ArrayList<Car>(totalSpace);
+    public static final Integer TOTAL_SPACE = 2;
+    public static Integer availableSpace = 2;
+    public static ArrayList<Car> parkingSlots= new ArrayList<Car>(TOTAL_SPACE);
 
 
     public static void main(String[] args){
 
-        for(int index = 0; index<totalSpace; index++){
+        for(int index = 0; index< TOTAL_SPACE; index++){
             parkingSlots.add(index, null);
         }
 
