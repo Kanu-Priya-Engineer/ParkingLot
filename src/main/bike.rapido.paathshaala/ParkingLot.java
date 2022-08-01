@@ -1,18 +1,9 @@
-import java.util.ArrayList;
 import java.util.Scanner;
 
-public class ParkingManagementSystem {
-    public static final Integer TOTAL_SPACE = 2;
-    public static Integer availableSpace = 2;
-    public static ArrayList<Car> parkingSlots= new ArrayList<Car>(TOTAL_SPACE);
-
-
+public class ParkingLot {
     public static void main(String[] args){
 
-        for(int index = 0; index< TOTAL_SPACE; index++){
-            parkingSlots.add(index, null);
-        }
-
+        CarAllocationSystem carAllocationSystem = new CarAllocationSystem();
         int choice;
         do {
             System.out.println("Welcome to the Parking Management System!");
@@ -23,7 +14,7 @@ public class ParkingManagementSystem {
 
             Scanner sc = new Scanner(System.in);
             choice = sc.nextInt();
-            AllocationSystem allocationSystem = new AllocationSystem();
+
             Car car;
             String carNumber="";
             String successMessage="";
@@ -33,7 +24,7 @@ public class ParkingManagementSystem {
                     System.out.println("Enter the car number: ");
                     carNumber = sc.next();
                     car.setCarNumber(carNumber);
-                    successMessage = allocationSystem.parkCar(car);
+                    successMessage = carAllocationSystem.allocateSlot(car);
                     System.out.println(successMessage);
                     System.out.println();
                     break;
@@ -42,7 +33,7 @@ public class ParkingManagementSystem {
                     System.out.println("Enter the car number: ");
                     carNumber = sc.next();
                     car.setCarNumber(carNumber);
-                    successMessage =  allocationSystem.removeCar(car);
+                    successMessage =  carAllocationSystem.deallocateSlot(car);
                     System.out.println(successMessage);
                     System.out.println();
                     break;

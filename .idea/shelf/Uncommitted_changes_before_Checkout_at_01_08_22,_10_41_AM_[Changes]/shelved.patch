@@ -1,0 +1,168 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"AutoImportSettings\">\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"dcec0035-7fd6-439b-9b03-a76a30b3ea37\" name=\"Changes\" comment=\"Updated testFile\">\n      <change afterPath=\"$PROJECT_DIR$/src/main/bike.rapido.paathshaala/AllocationSystemForCar.java\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/src/test/AllocationSystemForCarTest.java\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/main/bike.rapido.paathshaala/AllocationSystem.java\" beforeDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/main/bike.rapido.paathshaala/ParkingManagementSystem.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/bike.rapido.paathshaala/ParkingIO.java\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/test/AllocationSystemTest.java\" beforeDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"FileTemplateManagerImpl\">\n    <option name=\"RECENT_TEMPLATES\">\n      <list>\n        <option value=\"JUnit5 Test Class\" />\n        <option value=\"Class\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"MarkdownSettingsMigration\">\n    <option name=\"stateVersion\" value=\"1\" />\n  </component>\n  <component name=\"ProjectId\" id=\"2CYxb0arnC3ujeZHf4Pq5Ee2lLY\" />\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\">\n    <ConfirmationsSetting value=\"1\" id=\"Add\" />\n  </component>\n  <component name=\"ProjectViewState\">\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\">{\n  &quot;keyToString&quot;: {\n    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\n    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,\n    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,\n    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,\n    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,\n    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,\n    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;\n  }\n}</component>\n  <component name=\"RecentsManager\">\n    <key name=\"CreateClassDialog.RecentsKey\">\n      <recent name=\"\" />\n    </key>\n    <key name=\"CreateTestDialog.Recents.Supers\">\n      <recent name=\"\" />\n    </key>\n    <key name=\"CreateTestDialog.RecentsKey\">\n      <recent name=\"bike.rapido.paathshaala\" />\n    </key>\n  </component>\n  <component name=\"RunManager\" selected=\"Application.ParkingIO\">\n    <configuration name=\"ParkingIO\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\n      <option name=\"MAIN_CLASS_NAME\" value=\"ParkingIO\" />\n      <module name=\"ParkingLot\" />\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration name=\"AllocationSystemForCarTest\" type=\"JUnit\" factoryName=\"JUnit\" temporary=\"true\" nameIsGenerated=\"true\">\n      <module name=\"ParkingLot\" />\n      <option name=\"PACKAGE_NAME\" value=\"\" />\n      <option name=\"MAIN_CLASS_NAME\" value=\"AllocationSystemForCarTest\" />\n      <option name=\"TEST_OBJECT\" value=\"class\" />\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration name=\"AllocationSystemForCarTest.shouldAllocateSlotForCar1\" type=\"JUnit\" factoryName=\"JUnit\" temporary=\"true\" nameIsGenerated=\"true\">\n      <module name=\"ParkingLot\" />\n      <option name=\"PACKAGE_NAME\" value=\"\" />\n      <option name=\"MAIN_CLASS_NAME\" value=\"AllocationSystemForCarTest\" />\n      <option name=\"METHOD_NAME\" value=\"shouldAllocateSlotForCar1\" />\n      <option name=\"TEST_OBJECT\" value=\"method\" />\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration name=\"AllocationSystemForCarTest.shouldAllocateSlotForCar2\" type=\"JUnit\" factoryName=\"JUnit\" temporary=\"true\" nameIsGenerated=\"true\">\n      <module name=\"ParkingLot\" />\n      <option name=\"PACKAGE_NAME\" value=\"\" />\n      <option name=\"MAIN_CLASS_NAME\" value=\"AllocationSystemForCarTest\" />\n      <option name=\"METHOD_NAME\" value=\"shouldAllocateSlotForCar2\" />\n      <option name=\"TEST_OBJECT\" value=\"method\" />\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration name=\"AllocationSystemForCarTest.shouldNotDeallocateSlotForCarWhichIsNotParked\" type=\"JUnit\" factoryName=\"JUnit\" temporary=\"true\" nameIsGenerated=\"true\">\n      <module name=\"ParkingLot\" />\n      <option name=\"PACKAGE_NAME\" value=\"\" />\n      <option name=\"MAIN_CLASS_NAME\" value=\"AllocationSystemForCarTest\" />\n      <option name=\"METHOD_NAME\" value=\"shouldNotDeallocateSlotForCarWhichIsNotParked\" />\n      <option name=\"TEST_OBJECT\" value=\"method\" />\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <recent_temporary>\n      <list>\n        <item itemvalue=\"Application.ParkingIO\" />\n        <item itemvalue=\"JUnit.AllocationSystemForCarTest\" />\n        <item itemvalue=\"JUnit.AllocationSystemForCarTest.shouldAllocateSlotForCar1\" />\n        <item itemvalue=\"JUnit.AllocationSystemForCarTest.shouldAllocateSlotForCar2\" />\n        <item itemvalue=\"JUnit.AllocationSystemForCarTest.shouldNotDeallocateSlotForCarWhichIsNotParked\" />\n      </list>\n    </recent_temporary>\n  </component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"dcec0035-7fd6-439b-9b03-a76a30b3ea37\" name=\"Changes\" comment=\"\" />\n      <created>1658993391321</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1658993391321</updated>\n    </task>\n    <task id=\"LOCAL-00001\" summary=\"Initial Commit\">\n      <created>1658993424047</created>\n      <option name=\"number\" value=\"00001\" />\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1658993424047</updated>\n    </task>\n    <task id=\"LOCAL-00002\" summary=\"Updated\">\n      <created>1658997801296</created>\n      <option name=\"number\" value=\"00002\" />\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1658997801296</updated>\n    </task>\n    <task id=\"LOCAL-00003\" summary=\"Updated\">\n      <created>1659031476949</created>\n      <option name=\"number\" value=\"00003\" />\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1659031476949</updated>\n    </task>\n    <task id=\"LOCAL-00004\" summary=\"Updated testFile\">\n      <created>1659031557025</created>\n      <option name=\"number\" value=\"00004\" />\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1659031557025</updated>\n    </task>\n    <option name=\"localTasksCounter\" value=\"5\" />\n    <servers />\n  </component>\n  <component name=\"Vcs.Log.Tabs.Properties\">\n    <option name=\"TAB_STATES\">\n      <map>\n        <entry key=\"MAIN\">\n          <value>\n            <State />\n          </value>\n        </entry>\n      </map>\n    </option>\n  </component>\n  <component name=\"VcsManagerConfiguration\">\n    <MESSAGE value=\"Initial Commit\" />\n    <MESSAGE value=\"Updated\" />\n    <MESSAGE value=\"Updated testFile\" />\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"Updated testFile\" />\n  </component>\n  <component name=\"XDebuggerManager\">\n    <breakpoint-manager>\n      <breakpoints>\n        <line-breakpoint enabled=\"true\" type=\"java-method\">\n          <url>file://$PROJECT_DIR$/src/test/AllocationSystemForCarTest.java</url>\n          <line>29</line>\n          <properties class=\"AllocationSystemForCarTest\" method=\"shouldAllocateSlotForCar1\">\n            <option name=\"EMULATED\" value=\"true\" />\n            <option name=\"WATCH_EXIT\" value=\"false\" />\n          </properties>\n          <option name=\"timeStamp\" value=\"9\" />\n        </line-breakpoint>\n        <line-breakpoint enabled=\"true\" type=\"java-line\">\n          <url>file://$PROJECT_DIR$/src/main/bike.rapido.paathshaala/ParkingIO.java</url>\n          <line>28</line>\n          <option name=\"timeStamp\" value=\"3\" />\n        </line-breakpoint>\n      </breakpoints>\n    </breakpoint-manager>\n  </component>\n  <component name=\"com.intellij.coverage.CoverageDataManagerImpl\">\n    <SUITE FILE_PATH=\"coverage/ParkingLot$ParkingManagementSystem.ic\" NAME=\"ParkingManagementSystem Coverage Results\" MODIFIED=\"1659025268574\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"idea\" COVERAGE_BY_TEST_ENABLED=\"false\" COVERAGE_TRACING_ENABLED=\"false\" />\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	
++++ b/.idea/workspace.xml	
+@@ -5,12 +5,10 @@
+   </component>
+   <component name="ChangeListManager">
+     <list default="true" id="dcec0035-7fd6-439b-9b03-a76a30b3ea37" name="Changes" comment="Updated testFile">
+-      <change afterPath="$PROJECT_DIR$/src/main/bike.rapido.paathshaala/AllocationSystemForCar.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/test/AllocationSystemForCarTest.java" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/bike.rapido.paathshaala/AllocationSystem.java" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/bike.rapido.paathshaala/ParkingManagementSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/bike.rapido.paathshaala/ParkingIO.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/test/AllocationSystemTest.java" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/bike.rapido.paathshaala/AllocationSystemForCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/bike.rapido.paathshaala/AllocationSystemForCar.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/bike.rapido.paathshaala/ParkingIO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/bike.rapido.paathshaala/ParkingIO.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/test/AllocationSystemForCarTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/AllocationSystemForCarTest.java" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -61,7 +59,7 @@
+       <recent name="bike.rapido.paathshaala" />
+     </key>
+   </component>
+-  <component name="RunManager" selected="Application.ParkingIO">
++  <component name="RunManager" selected="JUnit.AllocationSystemForCarTest">
+     <configuration name="ParkingIO" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+       <option name="MAIN_CLASS_NAME" value="ParkingIO" />
+       <module name="ParkingLot" />
+@@ -110,8 +108,8 @@
+     </configuration>
+     <recent_temporary>
+       <list>
+-        <item itemvalue="Application.ParkingIO" />
+         <item itemvalue="JUnit.AllocationSystemForCarTest" />
++        <item itemvalue="Application.ParkingIO" />
+         <item itemvalue="JUnit.AllocationSystemForCarTest.shouldAllocateSlotForCar1" />
+         <item itemvalue="JUnit.AllocationSystemForCarTest.shouldAllocateSlotForCar2" />
+         <item itemvalue="JUnit.AllocationSystemForCarTest.shouldNotDeallocateSlotForCarWhichIsNotParked" />
+Index: src/test/AllocationSystemForCarTest.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>import org.junit.Before;\nimport org.junit.BeforeClass;\nimport org.junit.Test;\n\nimport static org.hamcrest.CoreMatchers.is;\nimport static org.hamcrest.MatcherAssert.assertThat;\n\n\npublic class AllocationSystemForCarTest {\n    AllocationSystemForCar allocationSystemForCar;\n\n    @BeforeClass\n    public static void beforeClass() throws Exception {\n        for(int index = 0; index<2; index++){\n            ParkingIO.parkingSlots.add(index, null);\n        }\n        ParkingIO.availableSpace=2;\n    }\n\n    @Before\n    public void setUp() throws Exception {\n        allocationSystemForCar = new AllocationSystemForCar();\n        for(int index = 0; index<2; index++){\n            ParkingIO.parkingSlots.set(index, null);\n        }\n        ParkingIO.availableSpace=2;\n    }\n\n    @Test\n    public void shouldAllocateSlotForCar1(){\n        String carNumber = \"1\";\n        Car car = new Car(carNumber);\n\n        String expectedSlotNumber = \"1\";\n        String expectedMessage = \"Your car parked successfully at Slot : \" + expectedSlotNumber;\n        String actualMessage = allocationSystemForCar.parkCar(car);\n\n        assertThat(actualMessage, is(expectedMessage));\n    }\n\n    @Test\n    public void shouldAllocateSlotForCar2(){\n        String carNumber1 = \"1\";\n        Car car1 = new Car(carNumber1);\n        allocationSystemForCar.parkCar(car1);\n\n        String carNumber2 = \"2\";\n        Car car2 = new Car(carNumber2);\n\n        String expectedSlotNumber = \"2\";\n        String expectedMessage = \"Your car parked successfully at Slot : \" + expectedSlotNumber;\n        String actualMessage = allocationSystemForCar.parkCar(car2);\n\n        assertThat(actualMessage, is(expectedMessage));\n    }\n    @Test\n    public void shouldNotAllocateSlotForCarAfterParkingSlotIsFull(){\n        String carNumber1 = \"1\";\n        Car car1 = new Car(carNumber1);\n        allocationSystemForCar.parkCar(car1);\n\n        String carNumber2 = \"2\";\n        Car car2 = new Car(carNumber2);\n        allocationSystemForCar.parkCar(car2);\n\n        String carNumber3 = \"3\";\n        Car car3 = new Car(carNumber3);\n\n        String expectedMessage = \"Sorry! All slots are occupied\";\n        String actualMessage = allocationSystemForCar.parkCar(car3);\n\n        assertThat(actualMessage, is(expectedMessage));\n    }\n\n\n}\n
+===================================================================
+diff --git a/src/test/AllocationSystemForCarTest.java b/src/test/AllocationSystemForCarTest.java
+--- a/src/test/AllocationSystemForCarTest.java	
++++ b/src/test/AllocationSystemForCarTest.java	
+@@ -7,27 +7,28 @@
+ 
+ 
+ public class AllocationSystemForCarTest {
+-    AllocationSystemForCar allocationSystemForCar;
++    static AllocationSystemForCar allocationSystemForCar = new AllocationSystemForCar();
+ 
+     @BeforeClass
+     public static void beforeClass() throws Exception {
++
+         for(int index = 0; index<2; index++){
+-            ParkingIO.parkingSlots.add(index, null);
++            allocationSystemForCar.parkingSlots.add(index, null);
+         }
+-        ParkingIO.availableSpace=2;
++        allocationSystemForCar.availableSpace=2;
+     }
+ 
+     @Before
+     public void setUp() throws Exception {
+         allocationSystemForCar = new AllocationSystemForCar();
+         for(int index = 0; index<2; index++){
+-            ParkingIO.parkingSlots.set(index, null);
++            allocationSystemForCar.parkingSlots.set(index, null);
+         }
+-        ParkingIO.availableSpace=2;
++        allocationSystemForCar.availableSpace=2;
+     }
+ 
+     @Test
+-    public void shouldAllocateSlotForCar1(){
++    public void shouldAllocateSlotFor1Car(){
+         String carNumber = "1";
+         Car car = new Car(carNumber);
+ 
+@@ -39,7 +40,7 @@
+     }
+ 
+     @Test
+-    public void shouldAllocateSlotForCar2(){
++    public void shouldAllocateSlotFor2Car(){
+         String carNumber1 = "1";
+         Car car1 = new Car(carNumber1);
+         allocationSystemForCar.parkCar(car1);
+Index: src/main/bike.rapido.paathshaala/AllocationSystemForCar.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>public class AllocationSystemForCar {\n\n    public boolean checkAvailability(){\n        if(ParkingIO.availableSpace > 0){\n            return true;\n        }\n        else{\n            return false;\n        }\n    }\n\n    public String parkCar(Car newCar){\n        String message;\n\n        if(checkAvailability()){\n            for (int index = 0; index< ParkingIO.parkingSlots.size(); index++ ){\n                if(ParkingIO.parkingSlots.get(index) == null)\n                {\n                    message = \"Your car parked successfully at Slot : \" + (index+1);\n                    ParkingIO.parkingSlots.set(index, newCar);\n                    ParkingIO.availableSpace -= 1;\n                    return message;\n                }\n            }\n\n        }\n\n        message = \"Sorry! All slots are occupied\";\n        return message;\n    }\n\n\n\n}\n
+===================================================================
+diff --git a/src/main/bike.rapido.paathshaala/AllocationSystemForCar.java b/src/main/bike.rapido.paathshaala/AllocationSystemForCar.java
+--- a/src/main/bike.rapido.paathshaala/AllocationSystemForCar.java	
++++ b/src/main/bike.rapido.paathshaala/AllocationSystemForCar.java	
+@@ -1,7 +1,18 @@
++import java.util.ArrayList;
++
+ public class AllocationSystemForCar {
++    public static final Integer TOTAL_SPACE = 2;
++    public static Integer availableSpace = 2;
++    public static ArrayList<Car> parkingSlots= new ArrayList<Car>(TOTAL_SPACE);
++
++    public AllocationSystemForCar() {
++        for(int index = 0; index< TOTAL_SPACE; index++){
++            parkingSlots.add(index, null);
++        }
++    }
+ 
+     public boolean checkAvailability(){
+-        if(ParkingIO.availableSpace > 0){
++        if(availableSpace > 0){
+             return true;
+         }
+         else{
+@@ -13,12 +24,12 @@
+         String message;
+ 
+         if(checkAvailability()){
+-            for (int index = 0; index< ParkingIO.parkingSlots.size(); index++ ){
+-                if(ParkingIO.parkingSlots.get(index) == null)
++            for (int index = 0; index< parkingSlots.size(); index++ ){
++                if(parkingSlots.get(index) == null)
+                 {
+                     message = "Your car parked successfully at Slot : " + (index+1);
+-                    ParkingIO.parkingSlots.set(index, newCar);
+-                    ParkingIO.availableSpace -= 1;
++                    parkingSlots.set(index, newCar);
++                    availableSpace -= 1;
+                     return message;
+                 }
+             }
+Index: src/main/bike.rapido.paathshaala/ParkingIO.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>import java.util.ArrayList;\nimport java.util.Scanner;\n\npublic class ParkingIO {\n    public static final Integer TOTAL_SPACE = 2;\n    public static Integer availableSpace = 2;\n    public static ArrayList<Car> parkingSlots= new ArrayList<Car>(TOTAL_SPACE);\n\n    public static void main(String[] args){\n\n        for(int index = 0; index< TOTAL_SPACE; index++){\n            parkingSlots.add(index, null);\n        }\n\n        int choice;\n        do {\n            System.out.println(\"Welcome to the Parking Management System!\");\n            System.out.println(\"Choose from the options : \");\n            System.out.println(\"1. Park a car \");\n            System.out.println(\"2. Exit \");\n\n            Scanner sc = new Scanner(System.in);\n            choice = sc.nextInt();\n            AllocationSystemForCar allocationSystemForCar = new AllocationSystemForCar();\n            Car car;\n            String carNumber=\"\";\n            String successMessage=\"\";\n            switch (choice) {\n                case 1:\n                    car = new Car();\n                    System.out.println(\"Enter the car number: \");\n                    carNumber = sc.next();\n                    car.setCarNumber(carNumber);\n                    successMessage = allocationSystemForCar.parkCar(car);\n                    System.out.println(successMessage);\n                    System.out.println();\n                    break;\n                default:\n                    System.out.println(\"Please ! Enter the valid options [1,2]\");\n                    System.out.println();\n            }\n        } while (choice != 2);\n\n\n        System.out.println(\"Goodbye.\");\n    }\n\n}\n
+===================================================================
+diff --git a/src/main/bike.rapido.paathshaala/ParkingIO.java b/src/main/bike.rapido.paathshaala/ParkingIO.java
+--- a/src/main/bike.rapido.paathshaala/ParkingIO.java	
++++ b/src/main/bike.rapido.paathshaala/ParkingIO.java	
+@@ -1,17 +1,9 @@
+-import java.util.ArrayList;
+ import java.util.Scanner;
+ 
+ public class ParkingIO {
+-    public static final Integer TOTAL_SPACE = 2;
+-    public static Integer availableSpace = 2;
+-    public static ArrayList<Car> parkingSlots= new ArrayList<Car>(TOTAL_SPACE);
+ 
+     public static void main(String[] args){
+ 
+-        for(int index = 0; index< TOTAL_SPACE; index++){
+-            parkingSlots.add(index, null);
+-        }
+-
+         int choice;
+         do {
+             System.out.println("Welcome to the Parking Management System!");

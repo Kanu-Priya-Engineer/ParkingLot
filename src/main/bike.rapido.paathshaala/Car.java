@@ -1,6 +1,5 @@
 public class Car {
     private String carNumber;
-
     public Car(){
 
     }

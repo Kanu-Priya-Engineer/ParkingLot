@@ -5,11 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dcec0035-7fd6-439b-9b03-a76a30b3ea37" name="Changes" comment="Updated testFile">
+      <change afterPath="$PROJECT_DIR$/src/main/bike.rapido.paathshaala/CarAllocationSystem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/bike.rapido.paathshaala/AllocationSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/bike.rapido.paathshaala/AllocationSystem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/bike.rapido.paathshaala/AllocationSystem.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/bike.rapido.paathshaala/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/bike.rapido.paathshaala/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/bike.rapido.paathshaala/ParkingManagementSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/bike.rapido.paathshaala/ParkingManagementSystem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/AllocationSystemTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/AllocationSystemTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/bike.rapido.paathshaala/ParkingManagementSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/bike.rapido.paathshaala/ParkingLot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/AllocationSystemTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/bike.rapido.paathshaala/CarAllocationSystemTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/CarTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +27,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -56,15 +63,25 @@
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/bike.rapido.paathshaala" />
+    </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="bike.rapido.paathshaala" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.AllocationSystemTest">
+  <component name="RunManager" selected="JUnit.CarAllocationSystemTest.shouldAllocateSlotForOneCar">
+    <configuration name="ParkingLot" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ParkingLot" />
+      <module name="ParkingLot" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AllocationSystemTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ParkingLot" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="AllocationSystemTest" />
+      <option name="PACKAGE_NAME" value="bike.rapido.paathshaala" />
+      <option name="MAIN_CLASS_NAME" value="bike.rapido.paathshaala.AllocationSystemTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -72,39 +89,28 @@
     </configuration>
     <configuration name="AllocationSystemTest.shouldAllocateSlotForCar1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ParkingLot" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="AllocationSystemTest" />
+      <option name="PACKAGE_NAME" value="bike.rapido.paathshaala" />
+      <option name="MAIN_CLASS_NAME" value="bike.rapido.paathshaala.AllocationSystemTest" />
       <option name="METHOD_NAME" value="shouldAllocateSlotForCar1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AllocationSystemTest.shouldAllocateSlotForCar2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CarAllocationSystemTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ParkingLot" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="AllocationSystemTest" />
-      <option name="METHOD_NAME" value="shouldAllocateSlotForCar2" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="CarAllocationSystemTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AllocationSystemTest.shouldDeallocateSlotForCarWhichIsParked" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CarAllocationSystemTest.shouldAllocateSlotForOneCar" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ParkingLot" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="AllocationSystemTest" />
-      <option name="METHOD_NAME" value="shouldDeallocateSlotForCarWhichIsParked" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AllocationSystemTest.shouldNotDeallocateSlotForCarWhichIsNotParked" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ParkingLot" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="AllocationSystemTest" />
-      <option name="METHOD_NAME" value="shouldNotDeallocateSlotForCarWhichIsNotParked" />
+      <option name="MAIN_CLASS_NAME" value="CarAllocationSystemTest" />
+      <option name="METHOD_NAME" value="shouldAllocateSlotForOneCar" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -112,11 +118,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CarAllocationSystemTest.shouldAllocateSlotForOneCar" />
+        <item itemvalue="JUnit.CarAllocationSystemTest" />
+        <item itemvalue="Application.ParkingLot" />
         <item itemvalue="JUnit.AllocationSystemTest" />
         <item itemvalue="JUnit.AllocationSystemTest.shouldAllocateSlotForCar1" />
-        <item itemvalue="JUnit.AllocationSystemTest.shouldAllocateSlotForCar2" />
-        <item itemvalue="JUnit.AllocationSystemTest.shouldNotDeallocateSlotForCarWhichIsNotParked" />
-        <item itemvalue="JUnit.AllocationSystemTest.shouldDeallocateSlotForCarWhichIsParked" />
       </list>
     </recent_temporary>
   </component>
@@ -181,44 +187,44 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/main/bike.rapido.paathshaala/ParkingManagementSystem.java</url>
-          <line>9</line>
-          <properties class="ParkingManagementSystem" method="main">
+          <url>file://$PROJECT_DIR$/src/main/bike.rapido.paathshaala/ParkingLot.java</url>
+          <line>6</line>
+          <properties class="ParkingLot" method="main">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/main/bike.rapido.paathshaala/AllocationSystem.java</url>
-          <line>33</line>
-          <properties class="AllocationSystem">
+          <url>file://$PROJECT_DIR$/src/main/bike.rapido.paathshaala/CarAllocationSystem.java</url>
+          <line>65</line>
+          <properties class="CarAllocationSystem">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/test/AllocationSystemTest.java</url>
+          <url>file://$PROJECT_DIR$/src/test/bike.rapido.paathshaala/CarAllocationSystemTest.java</url>
           <line>92</line>
-          <properties class="AllocationSystemTest" method="shouldNotDeallocateSlotForCarWhichIsNotParked">
+          <properties class="CarAllocationSystemTest">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/test/AllocationSystemTest.java</url>
+          <url>file://$PROJECT_DIR$/src/test/bike.rapido.paathshaala/CarAllocationSystemTest.java</url>
           <line>27</line>
-          <properties class="AllocationSystemTest" method="shouldAllocateSlotForCar1">
+          <properties class="CarAllocationSystemTest" method="shouldAllocateSlotForTwoCars">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/bike.rapido.paathshaala/ParkingManagementSystem.java</url>
-          <line>30</line>
+          <url>file://$PROJECT_DIR$/src/main/bike.rapido.paathshaala/ParkingLot.java</url>
+          <line>25</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
